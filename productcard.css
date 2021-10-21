@@ -1,0 +1,1377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444;
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+
+.section-products #product-1 .part-1::before {
+    background: url("https://uspharma.vn/images/companies/uspharma/San%20pham/Khang%20di%20ung/Cadirizin.jpg") no-repeat center;
+    background-size: cover;
+	transition: all 0.3s;
+}
+.section-products #product-2 .part-1::before {
+    background: url("https://img.thuocbietduoc.com.vn/images/drugs/2019/2/thuoc_meko-coramin_15-1219.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-3 .part-1::before {
+    background: url("https://images.fpt.shop/unsafe/fit-in/600x600/filters:quality(90):fill(white)/nhathuoclongchau.com/images/product/2021/08/00031552-humasis-covid-19-ag-test-thiet-bi-chan-doan-in-vitro-xet-nghiem-vi-rut-sars-cov-2-9171-6108_large.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-4 .part-1::before {
+    background: url("https://duocgiasi.com/image/6037eb6c9402e33868c351dd/thumbnailfix.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2021/05/00029060-esomeprazol-20mg-an-thien-10x10-6471-60af_large.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+    background: url("https://product.hstatic.net/1000113261/product/quay-thuoc-ba-ty_b07707a61e5d49a3b6001707f6ee5453.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+    background: url("https://alphabetpharma.com.vn/image/cache/catalog/nha-thuoc/thuoc-khong-ke-don/thuoc-cam-lanh-ho/acemuc-100mg-800x800.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+    background: url("https://img.thuocbietduoc.com.vn/images/drugs/2019/3/thuoc-com-acemuc_10-10319.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-9 .part-1::before {
+    background: url("https://giathuocsi.com/web/image/product.template/7819/image") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-10 .part-1::before {
+    background: url("https://nhathuoclongchau.com/upload/images/sanpham/752/images/acnacare-vien-uong-ngan-ngua-mun-3.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-11 .part-1::before {
+    background: url("https://nhathuoclongchau.com/upload/images/sanpham/17567/images/00000485-acnes-12g-scar-care-4003-5b55_large.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-12 .part-1::before {
+    background: url("https://cdn.famitaa.com/uploads/noidung/thuoc-tri-mun-acnotin-isotretinoin-10-mg-hop-3-vi-x-10-vien-0.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-13 .part-1::before {
+    background: url("https://cdn.famitaa.com/uploads/noidung/thuoc-acticarbine-hop-84-vien-863.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-14 .part-1::before {
+    background: url("http://product.hstatic.net/1000372707/product/00000517-acyclovir-stada-400-mg-3344-5bff_large_8775889a415344299a563392269d4bb9_grande.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-15 .part-1::before {
+    background: url("https://silethuoc.com/wp-content/uploads/2019/11/acyclovir-stada-5g-2-700x467.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-16 .part-1::before {
+    background: url("https://centralpharmacy.vn/filemanager/data-images/2021/4/21/adagrin-100mg.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-17 .part-1::before {
+    background: url("https://silethuoc.com/wp-content/uploads/2019/10/sildenafil-2-700x467.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-18    .part-1::before {
+    background: url("https://images.fpt.shop/unsafe/fit-in/600x600/filters:quality(90):fill(white)/nhathuoclongchau.com/images/product/2020/10/00022625-actiso-dhg-10-ong-x-10ml-2987-5f76_large.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-19    .part-1::before {
+    background: url("https://nhathuocphuongchinh.com/images/thumbs/0010367_thuoc-cam-mau-adrenoxyl-10mg_450.png") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-20    .part-1::before {
+    background: url("https://cdn.famitaa.com/uploads/noidung/thumb/agimoti-s-agimexpharm-30-goi-x-1g_00428.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-21    .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2018/05/00000562-air-x-huong-bac-ha-6822-5afa_large.JPG") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-22    .part-1::before {
+    background: url("https://product.hstatic.net/200000142961/product/air-x-cam-hop-100-vien_078a6129286b4767873923d49ec9cbcc_master.png") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-23    .part-1::before {
+    background: url("https://media3.scdn.vn/img3/2019/4_3/DuKytl_simg_b5529c_250x250_maxb.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-24    .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2018/08/00000576-alaxan-325mg-4216-5b71_large.JPG") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-25    .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2018/06/00017847-albendazol-200mg-stada-1x2-1966-5b30_large.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-26    .part-1::before {
+    background: url("https://healthvietnam.vn/photos/shares/bietduoc1/ALBENDA001-thuoc-so-giun-san-albendazol-stada-400-mg-hop-1-vien-2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-27    .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2018/07/00017933-alenbe-plus-75mg5600iu-hasan-2x2-5172-5b4e_large.JPG") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-28    .part-1::before {
+    background: url("https://cdn.famitaa.com/uploads/noidung/alenbe-70mg.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-29    .part-1::before {
+    background: url("https://bidiphar.com/upload/sanpham/Aleucin%20500mg5ml_l.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-30    .part-1::before {
+    background: url("https://nhathuocphuongchinh.com/images/thumbs/0009980_sam-mens-ginseng-alipas-mau-moi-ho-tro-tang-cuong-suc-khoe-sinh-ly-nam-gioi_450.jpeg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-31    .part-1::before {
+    background: url("https://silethuoc.com/wp-content/uploads/2019/09/tmp-import-product-images-SKUs_2-STA-ALL-001-MAIN.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-32    .part-1::before {
+    background: url("https://cdn.thegioididong.com/Products/Images/10020/130486/allopurinol-300mg2-700x467.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-33    .part-1::before {
+    background: url("https://cdn-images.kiotviet.vn/duocnamkhang/d5e8e1317ea346d28f306edfe259113d.png") no-repeat center;
+    background-size: cover;
+}.section-products #product-34    .part-1::before {
+    background: url("https://images.fpt.shop/unsafe/fit-in/600x600/filters:quality(90):fill(white)/nhathuoclongchau.com/images/product/2019/06/00000694-ami-bebe-250ml-2349-5d0b_large.JPG") no-repeat center;
+    background-size: cover;
+}.section-products #product-35    .part-1::before {
+    background: url("https://media.tuoitrexahoi.vn/mediav2/files/Tac-dung-cua-thuoc-Alpha-chymotrypsin-va-mot-so-luu-y_2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-36    .part-1::before {
+    background: url("https://nhathuocsuckhoe.com/proxy/500/0/1/upload/product/2019/02/thuoc-long-dom-tieu-chat-nhay-duong-ho-hap-ambroxol-30mg-5c7646a57090a-27022019151325.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-37    .part-1::before {
+    background: url("https://img.thuocbietduoc.com.vn/images/drugs/2018/11/thuoc-ambroxol-boston_14-21118.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-38    .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2018/10/00000720-amlodipin-5-dmc-8171-5bd1_large.JPG") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-39    .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2018/07/00000685-ameflu-c-day-time-9275-5b4e_large.JPG") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-40    .part-1::before {
+    background: url("https://nhathuoclongchau.com/images/product/2018/11/00005256-new-ameflu-daytime-9910-5bff_large.JPG") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-41    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-42    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-43    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-44    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-45    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-46    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-47    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-48    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-49    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-50    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-51    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-52    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-53    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-54    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-55    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-56    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-57    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-58    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-59    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-60    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-61    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-62   .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-63    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-64    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-65    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-66    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-67    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-68    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-69    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-70    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-71   .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-72    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-73    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-74    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-75    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-76    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-77    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-78    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-79    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-80    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-81    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-82    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-83    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-84    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-85    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-86    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-87    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-88    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-89    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-90    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-91    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-92    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-93    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-94    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-95    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-97    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-98    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-99    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-100    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-101    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-102    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-103    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-104    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-105    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-106    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-107    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-108    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-109    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-110    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-111    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-112    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-113    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-114    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-115    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-116    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-117    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-118    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-119    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-120    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-121    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-122    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-123    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-124    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-125    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-126    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-127    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-128    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-129    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-130    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-131    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-132    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-133    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-134    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-135    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-136    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-137    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-138    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-139    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-140    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-141    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-142    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-143    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-144    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-145    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-146    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-147    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-148    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-149    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-150    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-151    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-152    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-153    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-154    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-155    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-156    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-157    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-158    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-159    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-160    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-161    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-162    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-163    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-164    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-165    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-166    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-167    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-168    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-169    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-170    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-171    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-172    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-173    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-174    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}.section-products #product-175    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-176    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-177    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-178    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-179    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}.section-products #product-180    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-181    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-182    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-183    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-184    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-185    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-186    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-187    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-188    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-189    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-190    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-191    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-192    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-193    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-194    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-195    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-196    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-197    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-198    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-199    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-200    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-201    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-202    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-203    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-204    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-205    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-206    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-207    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-208    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-209    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-210    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-211    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-212    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-213    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-214    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-215    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-216    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-217    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-218    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-219    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-220    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-221    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-222    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-223    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-224    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-225    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-226    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-227    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-228    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-229    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-230    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-231    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-232    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-233    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-234    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-235    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-236    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-237    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-238    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-239    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-240    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-241    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-242    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-243    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-244    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-245    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-246    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-247    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-248    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-249    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-250    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-251    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-252    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-253    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-254    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-255    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-256    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-257    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-258    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-259    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-260    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-261    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-262    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-263    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-264    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-265    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-266    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-267    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-268    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-269    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-270    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-271    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-272    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-273    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-274    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-275    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-276    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-277    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-278    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-279    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-280    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-281    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-282    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-283    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-284    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-285    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-286    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-287    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-288    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-289    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-290   .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-291    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-292    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-293    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-294    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-295    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-296    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-297    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-298    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-299    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-300    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-301    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-302    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-303    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-304    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-305    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-306    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-307    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-308    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-309    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-310    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-311    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+}
+.section-products #product-312    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-313    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-314    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-315    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-316    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-317    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-318    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-319    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-320    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-321    .part-1::before {
+    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
